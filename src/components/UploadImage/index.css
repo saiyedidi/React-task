@@ -69,3 +69,18 @@ i.fa.fa-address-book-o {
     font-size: 18px;
     text-transform: capitalize;
 }
+textarea {
+    resize: none;
+  }
+  p.text-length {
+    margin: 0px;
+    color: #ccc;
+    position: absolute;
+    /* top: 0px; */
+    right: 11px;
+    bottom: 8px;
+}
+
+.input-text {
+    position: relative;
+}

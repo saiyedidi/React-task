@@ -5,22 +5,14 @@
 .progress ul li {
     text-transform: capitalize;
     padding-bottom: 10px;
+    font-weight: 400;
+    color: #ccc;
 }
-
 .progress ul {
     margin: 0px;
     padding: 20px;
 }
-.progress ul:after {
-    content: '';
-    position: absolute;
-    border-left: 1px solid #ccc;
-    display: block;
-    width: 1px;
-    height: 100%;
-    top: 27px;
-    left: 26px;
-}
+
 
 
 
@@ -35,4 +27,44 @@ i.fa.fa-check {
     padding: 2px;
     /* display: block; */
     margin-right: 6px;
+    position: absolute;
+    z-index: 999;
+
+}
+i.fa.fa-check{
+    position: relative;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress ul {
+    position: relative;
+    z-index: 1; /* Ensures the ul has a higher stacking context */
+}
+
+.progress ul:after {
+    content: '';
+    position: absolute;
+    border-left: 1px solid #ccc;
+    display: block;
+    width: 1px;
+    height: 79%;
+    top: 27px;
+    left: 26px;
+    z-index: 0; /* Ensures the border is below the ul */
+}
+.progress ul li:nth-child(1),.progress ul li:nth-child(2),.progress ul li:nth-child(3) {
+    color: #005dd3;
+    font-weight: 700;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.progress button {
+    width: 80%;
+    margin: 0 auto;
 }

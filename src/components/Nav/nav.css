@@ -55,3 +55,8 @@ li {
     text-transform: capitalize;
     vertical-align: middle;
 }
+.profile .fa {
+    color: #0000009c;
+    padding-right: 15px;
+}
+

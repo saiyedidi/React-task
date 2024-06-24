@@ -6,8 +6,11 @@ const UploadImage = () => {
 
         <div className="upload-image">
             <h3><i className='fa fa-address-book-o'></i>get complete info about any case from AI-driven research assistance</h3>
+            <div className='input-text'>
             <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="EX: Land dispute,mumbai,recent judgements.">
             </textarea>
+            <p className='text-length'>0/80</p>
+            </div>
             <div className='drag-drop-upload'>
                 <i className='fa fa-upload'></i>
                 <p>drag and drop or click here to <a>upload a file</a></p>
