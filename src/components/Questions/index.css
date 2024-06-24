@@ -1,0 +1,10 @@
+.question-flex {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    gap: 20px;
+    padding-top: 20px;
+}
+.questions-bg {
+    background: #eef5ff;
+}

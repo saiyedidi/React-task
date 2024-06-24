@@ -1,0 +1,38 @@
+.progress {
+    background: #fff;
+    border-radius: 8px;
+}
+.progress ul li {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.progress ul {
+    margin: 0px;
+    padding: 20px;
+}
+.progress ul:after {
+    content: '';
+    position: absolute;
+    border-left: 1px solid #ccc;
+    display: block;
+    width: 1px;
+    height: 100%;
+    top: 27px;
+    left: 26px;
+}
+
+
+
+.progress {
+    position: relative;
+}
+i.fa.fa-check {
+    font-size: 8px;
+    background: #005dd3;
+    border-radius: 50%;
+    color: #fff;
+    padding: 2px;
+    /* display: block; */
+    margin-right: 6px;
+}

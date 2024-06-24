@@ -1,0 +1,57 @@
+.flex-cls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #cccccc45;
+    align-items: center;
+}
+
+.nav ul {
+    padding-right: 13px;
+    display: flex;
+    gap: 21px;
+}
+
+.logo h2 {
+    margin: 0px;
+}
+
+.nav ul {
+    margin: 0px;
+}
+
+.profile ul {
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+}
+.nav ul .fa {
+    padding-right: 10px;
+}
+.profile img {
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+.profile ul li .fa {
+    vertical-align: bottom;
+}
+
+.profile ul li {
+    padding-left: 10px;
+}
+.nav ul li span {
+    background: #025BD4;
+    border: none;
+    width: 174px;
+    padding: 6px 30px;
+    border-radius: 13px;
+    color: #fff;
+    text-transform: capitalize;
+    vertical-align: middle;
+}

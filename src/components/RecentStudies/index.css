@@ -1,0 +1,91 @@
+.recent-heading h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+.recent-studies-parent{
+    background: #fff;
+    width: 400px;
+    padding: 10px;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 6px;
+}
+.status-update {
+    border: 1px solid #cccccc87;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.status-update h3 {
+    margin: 0px;
+    color: #025BD4;
+    font-size: 14px;
+    /* text-align: center; */
+    /* padding: 10px; */
+}
+.flex-status{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.recent-heading h2 {
+    margin: 0px 0px 10px 0px;
+    font-size: 18px;
+    color: #000000b8;
+}
+.time-day {
+    font-size: 12px;
+    padding-top: 5px;
+}
+.status-update h3 {
+    text-transform: capitalize;
+}
+.status {
+    color: green;
+    font-size: 12px;
+    background: #e3fff1;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 5px;
+}
+.status i.fa.fa-check {
+    color: #fff;
+    background: green;
+    padding: 4px 4px;
+    border-radius: 50%;
+    vertical-align: text-top;
+    font-size: 9px;
+}
+.status-progress{
+    color: orange;
+    font-size: 12px;
+    background: #cccccc4a;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 5px;
+}
+.status-progress i.fa.fa-adjust{
+    color: #fff;
+    background:orange;
+    padding: 4px 4px;
+    border-radius: 50%;
+    vertical-align: text-top;
+    font-size: 9px;
+}
+.fail{
+    color: red;
+    font-size: 12px;
+    background: #cccccc4a;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fail i.fa.fa-dot-circle-o{
+    color: #fff;
+    background: red;
+    padding: 4px 4px;
+    border-radius: 50%;
+    vertical-align: text-top;
+    font-size: 9px;
+
+}
+

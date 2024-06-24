@@ -1,0 +1,13 @@
+.home-flex-cls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto 0 auto;
+    padding-top: 14px;
+    gap: 14px;
+
+}
+.bg-class{
+    background: #eef5ff;
+    
+}

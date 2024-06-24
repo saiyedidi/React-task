@@ -1,0 +1,96 @@
+.given-ifi {
+    width: 245px;
+}
+
+.given-ifi h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 0px;
+    border-bottom: 1px solid #cccccc6e;
+    padding-bottom: 6px;
+}
+
+.given-ifi h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 5px 0px; 
+    padding-bottom: 6px;
+}
+
+.given-ifi p {
+    margin: 0px;
+    padding-bottom: 6px;
+    padding-bottom: 10px;
+}
+
+.given-ifi {
+    background: #fff;
+    border-radius: 16px;
+    padding: 15px;
+}
+.backtoarrow .fa {
+    font-size: 20px;
+    background: #cccccc52;
+    padding: 10px;
+    border-radius: 50%;
+    width: 22px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.backtoarrow button {
+    background: #025BD4;
+    border: none;
+    width: 174px;
+    padding: 10px;
+    border-radius: 12px;
+    color: #fff;
+    text-transform: capitalize;
+    vertical-align: middle;
+    margin-top: -6px;
+}
+.backtoarrow {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.upload-file h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.upload-file span {
+    background: #ecf5ff;
+    padding: 0px 10px;
+    color: #005dd3;
+}
+
+.upload-file {
+    margin-top: 10px;
+}
+.upload-file h2 {
+    margin: 0px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.uploaded-names {
+    background: #dfe7f2;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.uploaded-names p {
+    background:#f2f5f9;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 12px;
+
+}
+.given-ifi h5 {
+    color: #00000078;
+    font-weight: 400;
+    margin: 0px;
+}

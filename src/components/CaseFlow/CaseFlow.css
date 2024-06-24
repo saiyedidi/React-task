@@ -1,0 +1,10 @@
+.caseflow-flex {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;  
+    padding-top: 20px;
+    gap:20px;
+}
+.bg{
+    background: #eef5ff;  
+}
